@@ -1,5 +1,6 @@
 # Шаг 1. Создайте сеть согласно топологии.
-![https://github.com/Dr-Krot/HW_01/blob/main/lab/image/step%201.png](//placehold.it/200x100)
+![Step1](https://github.com/Dr-Krot/HW_01/blob/main/lab/image/step%201.png)
+
 *`Примечание:` При использовании Netlab отключите интерфейс F0/6*
 Команды *(водимые мною)*: 
 ```Switch>en
