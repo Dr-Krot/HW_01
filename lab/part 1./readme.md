@@ -1,6 +1,8 @@
-Шаг 1. Создайте сеть согласно топологии.
-Картинка Примечание: При использовании Netlab отключите интерфейс F0/6 Команды (водимые мною):
-
+# Шаг 1. Создайте сеть согласно топологии.
+Картинка
+*`Примечание:` При использовании Netlab отключите интерфейс F0/6*
+Команды *(водимые мною)*: 
+```Switch>en
 Switch>enable 
 Switch#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
@@ -54,9 +56,11 @@ FastEthernet0/6 is administratively down, line protocol is down (disabled)
      0 babbles, 0 late collision, 0 deferred
      0 lost carrier, 0 no carrier
      0 output buffer failures, 0 output buffers swapped out
-Шаг 2. Проверьте настройки коммутатора по умолчанию.
-Команды (водимые мною):
+```
 
+## Шаг 2. Проверьте настройки коммутатора по умолчанию.
+Команды *(водимые мною)*:
+```Switch>en
 Switch#
 Switch#
 Switch#show
@@ -191,10 +195,15 @@ Switch   Ports  Model              SW Version              SW Image
 Cisco IOS Software, C2960 Software (C2960-LANBASE-M), Version 12.2(25)FX, RELEASE SOFTWARE (fc1)
 Copyright (c) 1986-2005 by Cisco Systems, Inc.
 Compiled Wed 12-Oct-05 22:05 by pt_team
-f) Подсоедините кабель Ethernet компьютера PC-A к порту 6 Картинка
+```
 
-Примечание. При использовании Netlab включите интерфейс F0/6 на коммутаторе S1. картинка Команды (водимые мною):
+**f)** Подсоедините кабель Ethernet компьютера PC-A к порту 6 
+Картинка
 
+*`Примечание.` При использовании Netlab включите интерфейс F0/6 на коммутаторе S1.*
+картинка
+Команды *(водимые мною)*:
+```Switch>enab
 Switch#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
 Switch(config)#in
@@ -280,8 +289,10 @@ Remote SPAN VLANs
  
 Primary Secondary Type              Ports
 ------- --------- ----------------- ------------------------------------------
-j) Изучить флеш память
+```
 
+**j)** Изучить флеш память
+```Switch> show
 Switch> show fla
 Switch> show flash: 
 Directory of flash:/
@@ -289,3 +300,4 @@ Directory of flash:/
     1  -rw-     4414921          <no date>  c2960-lanbase-mz.122-25.FX.bin
  
 64016384 bytes total (59601463 bytes free)
+```
