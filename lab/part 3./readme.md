@@ -137,4 +137,4 @@ Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 1ms, Average = 0ms
 ```
 #### Шаг 3. Проверьте удаленное управление коммутатором S1.
-Картинка
+![Step3](https://github.com/Dr-Krot/HW_01/blob/main/lab/image/3.%20step%203.png)
