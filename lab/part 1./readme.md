@@ -199,10 +199,10 @@ Compiled Wed 12-Oct-05 22:05 by pt_team
 ```
 
 **f)** Подсоедините кабель Ethernet компьютера PC-A к порту 6 
-Картинка
+![f](https://github.com/Dr-Krot/HW_01/blob/main/lab/image/step%202(f).png) 
 
 *`Примечание.` При использовании Netlab включите интерфейс F0/6 на коммутаторе S1.*
-картинка
+![f_](https://github.com/Dr-Krot/HW_01/blob/main/lab/image/step%202(f)(2).png)
 Команды *(водимые мною)*:
 ```Switch>enab
 Switch#conf t
